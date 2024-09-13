@@ -91,3 +91,27 @@ tr:hover {
 .fade-in {
     animation: fadeIn 0.5s ease-in-out;
 }
+
+#progressContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* Space between progress bar and the table */
+    width: 100%;
+    /* Full width */
+    text-align: center;
+}
+
+#progressBar {
+    width: 50%;
+    /* Adjust the width of the progress bar */
+    height: 20px;
+}
+
+#progressText {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
